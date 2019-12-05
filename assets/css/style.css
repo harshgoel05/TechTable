@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+html,body{
+overflow-x: hidden;
+}
+/* 
+----------------------NAVBAR---------------
+*/
+.nav-link {
+  /* color: black !important; */
+  padding-right: 20px !important;
+}
+
+/* Image Relative */
+.img-container {
+  position: relative;
+}
+.overlay-text-container {
+  position: absolute;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  background-color: rgba(255, 255, 0, 0.75);
+  width: 35%;
+}
+.overlay-text {
+  padding-top: 40%;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+.search-main {
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.input-outer-padding {
+  position: relative;
+  width: 400px;
+  border-radius: 3px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.input-inner-padding {
+  width: auto;
+  height: 100px;
+  padding: 5px 60px 5px 5px;
+}
+
+.input-field {
+  width: 100%;
+  display: block;
+  border: 0px;
+  margin: 0px;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 50px 50px 50px 50px;
+  height: 50px;
+  padding-left: 40px;
+}
+
+.search-confirm {
+  height: 50px;
+  padding: 14px 10px;
+  background-color: #3c0;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-radius: 0px 50px 50px 0px;
+  /* here the magic begins */
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  right: 0;
+}
+@media (max-width: 800px) {
+  .overlay-text-container {
+    width: 100%;
+  }
+}
+
+/* why-choose-us */
+
+.why-choose-container {
+  background-color: grey;
+  padding: 40px;
+  color: white;
+}
+.why-choose-container .col-md-4 {
+  padding-top: 50px;
+  font-weight: bolder;
+}
+.why-choose-container .col-md-4 h2 {
+  width: 70%;
+  padding-bottom: 30px;
+  border-bottom: white 2px solid;
+}
+.why-choose-container .col-md-4,
+.why-choose-container .col-md-2,
+.why-choose-container .col-md-3 {
+  text-align: left;
+  padding: 30px;
+}
+.why-choose-container .col-md-2 p,
+.why-choose-container .col-md-3 p {
+  text-align: left;
+  padding-top: 20px;
+  font-size: 13px;
+}
+/* .content-conatiner {
+  background-color: yellow;
+} */
+.content-conatiner h2 {
+  padding: 40px;
+}
+.content-conatiner h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.content-conatiner p {
+  padding-left: 50px;
+  margin-left: 270px;
+  margin-right: 80px;
+  border-left: 2px solid black;
+}
+.side-content-conatiner {
+  background-color: yellow;
+}
+.side-content-conatiner h3 {
+  padding: 100px;
+  padding-bottom: 0px;
+}
+.side-content-conatiner p {
+  padding: 50px;
+}
+@media (max-width: 800px) {
+
+  .content-conatiner p {
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-right: 80px;
+  }
+}
+
+/* Image Slider */
+.show-neighbors {
+  overflow: hidden;
+}
+.show-neighbors .carousel-indicators {
+  margin-right: 25%;
+  margin-left: 25%;
+}
+.show-neighbors .carousel-inner {
+  width: 150%;
+  left: -25%;
+}
+.show-neighbors .carousel-item-next:not(.carousel-item-left),
+.show-neighbors .carousel-item-right.active {
+  -webkit-transform: translate3d(33%, 0, 0);
+  transform: translate3d(33%, 0, 0);
+}
+.show-neighbors .carousel-item-prev:not(.carousel-item-right),
+.show-neighbors .carousel-item-left.active {
+  -webkit-transform: translate3d(-33%, 0, 0);
+  transform: translate3d(-33%, 0, 0);
+}
+.show-neighbors .item-third {
+  float: left;
+  position: relative;
+  /* captions can now be added */
+  width: 33.33333333%;
+}
+.item-third img {
+  filter: brightness(80%);
+}
+.carousel-item img {
+  padding: 10%;
+}
