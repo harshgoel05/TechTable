@@ -80,6 +80,13 @@ overflow-x: hidden;
   .overlay-text-container {
     width: 100%;
   }
+  .input-field {
+    width: 70%;
+    padding-left: 20px;
+  }
+  .search-confirm {
+right: 100px;
+  }
 }
 
 /* why-choose-us */
@@ -140,7 +147,7 @@ overflow-x: hidden;
 
   .content-conatiner p {
     padding-left: 20px;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-right: 80px;
   }
 }
