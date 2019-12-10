@@ -10,7 +10,7 @@
   	$(".testimonialsList").owlCarousel({      
 	   loop:true,
 		margin:30,
-		nav:false,
+		autoPlay:true,
 		responsiveClass:true,
 		responsive:{
 			0:{

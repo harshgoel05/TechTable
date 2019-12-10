@@ -3245,6 +3245,7 @@ blockquote:after {
 }
 .footerWrap .ft-logo {
 	margin-bottom: 15px;
+	text-align: center;
 }
 .social {
 	margin-top: 20px;
@@ -3628,3 +3629,46 @@ Large Mobile Screen
 	text-align: center;
 }
 }
+
+
+/* Custom */
+
+.about-us-text{
+	padding-right: 15%;
+	padding-left: 15%;
+	font-size: 17px;
+}
+.getstarted1 {
+	text-align: center;
+	margin:20px;
+	margin-top: 50px;
+}
+.getstarted1 a {
+	display: inline-block;
+	border: 3px solid #fff;
+	padding: 12px 25px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+}
+.getstarted1 a i {
+	margin-right: 10px;
+}
+.getstarted1 a:hover {
+	background: #263bd6;
+	text-decoration: none;
+}
+.logo-img{
+	width: 40px;
+}
+.logo-img-ft{
+	width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+	.about-us-text{
+		padding-right: 2%;
+		padding-left: 2%;
+	}
+}
+	
