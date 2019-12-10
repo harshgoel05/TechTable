@@ -1,0 +1,59 @@
+section {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/developers/bg.png);
+  margin: 0;
+  background-attachment:fixed;
+}
+
+.card {
+  border: black 1px groove;
+  margin:50px;
+  background-color: rgba(247, 247, 247,0.3);
+}
+/* Flip Cards CSS */
+.card-container {
+  display: grid;
+  perspective: 700px;
+}
+.card-title {
+  padding: 20px;
+  padding-left: 10px;
+  font-size:25px;
+}
+.card-text {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.card-flip {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.front {
+  grid-area: frontAndBack;
+}
+
+.back {
+  margin: auto;
+  grid-area: frontAndBack;
+  padding: 50px;
+  transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+.main {
+  padding: 150px;
+  padding-right: 0;
+  padding-left: 0;
+}
