@@ -1136,9 +1136,14 @@ a.wit-btn {
 }
 .appimg {
 	text-align: center;
+	margin: auto;
+
 }
 .appimg img {
 	display: block;
+	position: relative;
+	left: -100px;
+	bottom: -50px;
 }
 .appwraper .titleTop {
 	text-align: left;
@@ -3634,8 +3639,8 @@ Large Mobile Screen
 /* Custom */
 
 .about-us-text{
-	padding-right: 15%;
-	padding-left: 15%;
+	padding-right:17%;
+	padding-left: 17%;
 	font-size: 17px;
 }
 .getstarted1 {
@@ -3658,13 +3663,9 @@ Large Mobile Screen
 	background: #263bd6;
 	text-decoration: none;
 }
-.logo-img{
-	width: 40px;
+.services-cont .row{
+	margin-top: 45px;
 }
-.logo-img-ft{
-	width: 100px;
-}
-
 @media screen and (max-width: 500px) {
 	.about-us-text{
 		padding-right: 2%;
