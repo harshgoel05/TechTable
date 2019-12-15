@@ -3672,4 +3672,13 @@ Large Mobile Screen
 		padding-left: 2%;
 	}
 }
-	
+.connectedstartups{
+	margin: auto !important;
+	vertical-align: middle;
+	text-align: center;
+}
+.connectedstartups img{
+	vertical-align: middle;
+	height: 100px;
+	padding-top: 20px;
+}
